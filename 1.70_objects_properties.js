@@ -5,6 +5,7 @@ var monster = {
     weight:95000,
 	
 		abilityType	:{
+			//this is an array within a property, its sooo cool and difficult to understand
 		types	:[
 			{abilityID: 1, name :"Super Strength"},
 			{abilityID: 2, name :"Super Regeneration"},
