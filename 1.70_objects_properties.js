@@ -12,16 +12,16 @@ var monster = {
 			{abilityID: 4, name :"Atomic Breath"},
 			{abilityID: 5, name :"Nuclear Pulse"},
 	]		
-	},
-	size: function () {
-		godzillaSize = this.height + " meters, and " + this.weight + " kilograms!";
-		console.log(this.height + " meters, and " + this.weight + " kilograms!");
-	},
-	nameChange: function(newName){
-		this.name = newName;
-		return this.name;
 	}
+	
 };
 
-monster.size();
-monster.nameChange('Gojira');
+for (var ability in monster.abilityType.types){
+	console.log("Godzilla has: " + monster.abilityType.types[ability].name)
+}
+
+console.log(monster);
+console.log(monster.age + " years old");
+console.log(monster.height + " meters");
+console.log(monster.abilityType);
+console.log(monster.abilityType.types[0].name);
