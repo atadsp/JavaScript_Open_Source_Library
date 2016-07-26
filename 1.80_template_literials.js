@@ -7,4 +7,5 @@ console.log(`The sum of the numbers is ${x+y}!`);
 var arry = ["Chris", "Kevin", "Ryan", "Steve"];
 // you can even use them to help you loop through arrays
 for (i = 0; i<arry.length; i++){
-	consol
+	console.log(`The student's name is ${arry[i]}`);
+}
